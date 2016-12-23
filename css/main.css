@@ -110,6 +110,10 @@ h2 {
   .timeline:nth-child(even) {
     text-align: left;
   }
+  .timeline-col {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }
 
 .display-inline {
