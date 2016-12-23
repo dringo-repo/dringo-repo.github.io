@@ -1,13 +1,23 @@
 
-
+/*
+ * bootstrap sizes
+ * xs = 0-576
+ * sm = 576-768
+ * md = 768-992
+ * lg = 992-1200
+*/
 
 body {
   font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
-  font-size: 21px;
-  line-height: 36px;
+  font-size: 15px;
+  line-height: 25px;
   color: #47525d;
   font-weight: 300;
   padding-top: 60px;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 .headline {
@@ -108,6 +118,14 @@ body {
 
 .footer-col, .contact-col {
   text-align: center;
+}
 
-
+@media (min-width: 576px) {
+  body {
+    font-size: 21px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 2em;
+  }
 }
