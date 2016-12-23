@@ -106,7 +106,7 @@ body {
   display: inline-block;
 }
 
-.footer-col {
+.footer-col, .contact-col {
   text-align: center;
 
 
