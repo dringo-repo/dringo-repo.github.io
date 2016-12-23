@@ -101,3 +101,13 @@ body {
     text-align: left;
   }
 }
+
+.display-inline {
+  display: inline-block;
+}
+
+.footer-col {
+  text-align: center;
+
+
+}
