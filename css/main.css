@@ -139,3 +139,7 @@ h3 {
     font-size: 1.75em;
   }
 }
+
+.center {
+  text-align: center;
+}
